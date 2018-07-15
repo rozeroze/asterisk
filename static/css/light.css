@@ -1,0 +1,26 @@
+body {
+    color: black;
+    background: ghostwhite;
+}
+
+a {
+    color: lime;
+}
+
+#asterisk-header {
+}
+
+.cm-card {
+    border: 1px lightgray solid;
+}
+
+#asterisk-social a {
+    color: white;
+    box-shadow: 5px 5px 5px lightgray;
+}
+
+#asterisk-footer {
+    border: 1px gray solid;
+}
+
+

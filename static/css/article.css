@@ -1,0 +1,22 @@
+﻿#asterisk-context {
+    /* position and size */
+    width: 80vw;
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#asterisk-context p {
+    margin: 10px;
+}
+
+#asterisk-context h1,
+#asterisk-context h2,
+#asterisk-context h3,
+#asterisk-context h4,
+#asterisk-context h5,
+#asterisk-context h6 {
+    margin: 15px 0px;
+}
+
+

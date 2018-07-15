@@ -1,0 +1,25 @@
+﻿body {
+    color: #7aa6c7;
+    background: #202020;
+}
+
+a {
+    color: #b6cbf2;
+}
+
+#asterisk-header {
+    background: #404060;
+}
+
+.cm-card {
+    background: #30303a;
+}
+
+#asterisk-social a {
+    border: #e3e3e7 3px solid;
+    color: white;
+}
+
+#asterisk-footer {
+    background: #404060;
+}

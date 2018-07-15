@@ -1,0 +1,31 @@
+﻿#asterisk-contact {
+    margin: 5px 10vw;
+}
+
+#asterisk-contact div.input {
+    margin-bottom: 10px;
+}
+#asterisk-contact div.input .header {
+    width: 20%;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#asterisk-contact div.input .header:after {
+    content: ":";
+}
+#asterisk-contact div.input input,
+#asterisk-contact div.input textarea {
+    width: 80%;
+}
+#asterisk-contact div.input input:invalid,
+#asterisk-contact div.input textarea:invalid {
+    /*border-color: red;*/
+}
+#asterisk-contact-buttons {
+    text-align: center;
+    margin-top: 10px;
+}
+#asterisk-contact-buttons button {
+    margin: 0 10px;
+}

@@ -1,0 +1,93 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', 'Arial', 'Meiryo UI', 'Osaka';
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    white-space: nowrap;
+    transform: translate(-50%, -50%);
+}
+
+.horizon {
+    display: flex;
+    flex-direction: row;
+}
+.vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+#asterisk-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 99vw;
+}
+
+#asterisk-breadcrumb {
+    margin-top: 10vh;
+    margin-left: 10%;
+}
+
+#asterisk-social {
+    margin-top: 10px;
+    text-align: center;
+}
+#asterisk-social a {
+    padding: 8px 8px;
+    border-radius: 10px;
+}
+#asterisk-social a#asterisk-social-twitter {
+    background: #55acee;
+}
+#asterisk-social a#asterisk-social-facebook {
+    background: #3b5998;
+}
+#asterisk-social a#asterisk-social-googleplus {
+    background: #dd4b39;
+}
+
+@media (min-width: 768px) {
+    #asterisk-footer-field {
+        height: 120px;
+    }
+    #asterisk-footer {
+        position: fixed;
+        bottom: 0;
+    }
+}
+#asterisk-footer {
+    width: 100vw;
+    margin-bottom: 0;
+}
+#asterisk-footer #asterisk-copyright {
+    margin-top: 20px;
+}
+
+#asterisk-footer #asterisk-contact-button {
+    padding: 5px 10px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#asterisk-footer #asterisk-sitemap {
+}
+
